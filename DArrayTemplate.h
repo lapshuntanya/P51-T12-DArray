@@ -40,7 +40,7 @@ void printArray(T** matrix, int row, int col, int w = 5) {
     cout << endl;
 }
 
-//4 - Звільненнч памʼяті
+//4 - Звільнення памʼяті
 template<typename T>
 void destroyMemory(T**& matrix, int &row, int& col) {
     //Звільнення памʼяті
