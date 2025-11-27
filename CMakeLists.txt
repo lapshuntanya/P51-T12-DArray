@@ -3,4 +3,5 @@ project(P51_DArray)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(P51_DArray main.cpp)
+add_executable(P51_DArray main.cpp
+        DArrayTemplate.h)
