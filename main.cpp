@@ -12,6 +12,10 @@ int main() {
     createMemory(m, row, col);
     randArray(m, row, col, -10, 10);
     printArray(m, row, col);
+
+    swapLastAndFirst(m, row, col);
+    printArray(m, row, col);
+
     destroyMemory(m, row, col);
 
     cout << "M = " << m << " size: " << row << ", " << col << endl;

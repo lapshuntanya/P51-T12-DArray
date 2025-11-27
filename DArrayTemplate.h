@@ -52,3 +52,10 @@ void destroyMemory(T**& matrix, int &row, int& col) {
     matrix = nullptr;
     row = col = 0;
 }
+
+template <typename T>
+void swapLastAndFirst(T** m, int row, int col) {
+    T* tmp = m[0];
+    m[0] = m[row - 1];
+    m[row - 1] = tmp;
+}
